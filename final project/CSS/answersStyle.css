@@ -3,23 +3,30 @@ body {
   margin-right: 200px;
 }
 
-#rightsTitle {
-  font-size: 60px;
+#unified {
+  font-family: 'Special Elite', cursive;
+  font-weight: lighter;
+}
+
+.navbar a{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 25px;
+  color: Black;
+  text-decoration: none;
+}
+
+#pageTitle {
+  font-size: 80px;
   font-family: 'Meddon', cursive;
   text-align: center;
-
 }
 
 #google_translate_element {
   margin-left: 750px;
 }
 
-#unified {
-  font-family: 'Special Elite', cursive;
-  font-weight: lighter;
-  text-align: left;
-  margin-left: 20px;
-  font-size: 25px;
+#line {
+  text-align: center;
 }
 
 .footer {
@@ -40,30 +47,7 @@ body {
 
 
 
-.topnav a{
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 25px;
-  color: Black;
-  text-decoration: none;
-}
 
-
-p {
-  font-family: 'Khand', sans-serif;
-  font-size: 15px;
-  text-align: center;
-}
-
-h3 {
-  font-family: 'Pathway Gothic One', sans-serif;
-  font-size: 25px;
-  font-weight: lighter;
-  text-align: center;
-}
-
-#line {
-  text-align: center;
-}
 
 
 
