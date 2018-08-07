@@ -5,32 +5,33 @@ body {
 
 #unified {
   font-family: 'Special Elite', cursive;
+  text-align: left;
   font-weight: lighter;
-  font-size: 25px;
   margin-left: 20px;
   text-decoration: none;
   color: black;
-}
-
-.navbar a{
-  font-family: 'Open Sans Condensed', sans-serif;
   font-size: 25px;
-  color: Black;
-  text-decoration: none;
 }
 
-#pageTitle {
+#Title {
   font-size: 60px;
   font-family: 'Meddon', cursive;
   text-align: center;
 }
 
-#google_translate_element {
-  margin-left: 750px;
+
+#email {
+  text-align: center;
+  padding-top:  30px;
+  padding-bottom: 30px;
+  font-family: 'Khand', sans-serif;
 }
 
-#line {
+.links a {
   text-align: center;
+  font-family: 'Khand',sans-serif;
+  font-size: 20px;
+  color: Black;
 }
 
 .footer {
@@ -49,25 +50,28 @@ body {
   font-family: 'Khand', sans-serif;
 }
 
-#question {
-  font-family: 'Khand', sans-serif;
-  font-size:18px;
-
-
-}
-
-#answer {
-  font-family: 'Khand', sans-serif;
-  font-size: 16px;
-  font-weight: lighter;
-
-}
-
-#common {
-  font-family: 'Pathway Gothic One', sans-serif;
-  font-weight: lighter;
-  text-align: center;
+.topnav a{
+  font-family: 'Open Sans Condensed', sans-serif;
   font-size: 25px;
+  color: Black;
+  text-decoration: none;
+}
+
+/* Set the size of the div element that contains the map */
+#map {
+ height: 400px;  /* The height is 400 pixels */
+ width: 80%;  /* The width is the width of the web page */
+ margin-left: auto;
+ margin-right: auto;
+
+}
+
+#google_translate_element {
+  margin-left: 750px;
+}
+
+#line {
+  text-align: center;
 }
 
 
@@ -101,7 +105,6 @@ body {
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-    text-align: center;
 }
 
 .dropdown-content a:hover {background-color: Silver;}
